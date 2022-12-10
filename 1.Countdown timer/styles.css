@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./snow.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.main-heading{
+    margin: 4rem auto;
+    text-align: center;
+    font-size: 4rem;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+}
+.time{
+    padding: 3rem 3rem;
+}
+.days, .hours, .minutes, .seconds{
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    margin-top: 2rem;
+}
